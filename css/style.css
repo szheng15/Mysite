@@ -25,17 +25,22 @@ h2{
 h3{
   font-family: 'Montserrat', sans-serif;
   color: #11999E;
+  text-align: center;
+  margin: auto;
 }
 
 p{
   line-height: 2;
+  text-align: center;
+  width: 50%;
+  margin: auto;
 }
 
 hr{
   border: dotted #EAF6F6 6px;
   border-bottom: none;
   width: 5%;
-  margin: 100px auto 100px auto;
+  margin: 200px auto 100px auto;
 }
 
 a{
@@ -85,12 +90,12 @@ a:hover{
 }
 
 .contact-message{
-  width: 40%;
+  width: 30%;
   margin: 40px auto 60px;
 }
 
 .skill-row{
-  width: 50%;
+  width: 40%;
   margin: 100px auto 100px auto;
   text-align: left;
   line-height: 2;
@@ -103,14 +108,14 @@ a:hover{
 }
 
 .computer-img{
-  width: 25%;
+  width: 150px;
   float: left;
   border-radius: 50%;
   margin: 30px;
 }
 
 .chillies-img{
-  width: 25%;
+  width: 150px;
   float: right;
   margin: 30px;
 }
@@ -147,4 +152,8 @@ a:hover{
   background-image: -o-linear-gradient(top, #30E3CB, #2bc4a);
   background-image: linear-gradient(to bottom, #30E3CB, #2bc4a);
   text-decoration: none;
+}
+
+.sl{
+  width: 50%;
 }
